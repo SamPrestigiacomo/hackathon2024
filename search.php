@@ -91,3 +91,31 @@ if ($_SERVER["REQUEST_METHOD"] == "GET") {
     echo "</html>";
 }
 ?>
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+
+    <style>
+        body {
+            float: left;
+            height: auto;
+        }
+        img {
+            object-fit: cover;
+        }
+        .profile {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            flex-direction: row;
+        }
+        
+    </style>
+</head>
+
+
+
+</html>
